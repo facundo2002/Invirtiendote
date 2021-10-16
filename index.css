@@ -1,0 +1,76 @@
+/*Eliminamos los margenes y paddings que agrega el navegador por defecto*/
+* {
+  padding: 0;
+  margin: 0;
+  }
+
+/*Agregamos margenes inferiores a los parrafos*/
+p {
+  margin-bottom: 20px;
+}
+header {
+  padding-top: 0%;
+  background: #13121c;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  
+  margin-top: 4px;
+}
+/*De aquí en delante los demás es conocido, lo único que tenemos que hacer es darle forma a nuestro menú y a los items de la navegación, a continuación el código, que en realidad es muy sencillo, asi que me delimitare a no explicarlo todo, simplemente las partes que puedan parecer confusas. Como utilizamos ya un color negro de fondo yo puse el hover de los items color verde.*/
+
+nav {
+  float: left; /* Desplazamos el nav hacia la izquierda */
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+nav ul li a {
+  display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #6795fc;
+  
+}
+h1 {
+    color: whitesmoke;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 7px;
+    text-decoration-color: blue;
+    float:right;
+    padding-right: 10px;
+
+}
+.logo { 
+  border-radius: 52%;
+  float: right;
+  width: 90px;
+  margin-top: 3px;
+  margin-right: 22px;
+  
+}
+body{
+  background-image: url('Imagenes/back..jpg');
+  
+  
+}
+.contenido {
+  padding-top: 75px;
+  margin: 0%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
