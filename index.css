@@ -102,15 +102,24 @@ main {
   margin-left: 100px;
   margin-right: 115px;
 }
-
+h2{
+  text-align: center;
+}
+.texto-recuadro {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.bot {
+  padding-left: 2%;
+}
 
 /*Footer*/
 footer{
-  
+
 }
 .news{
   margin-bottom: 250PX;
-  /*Degradados en codigo*/
+  
   background-color: #13121c;
   border-radius: 5%;
   
@@ -124,7 +133,9 @@ footer{
 .news-info {
   
   padding-left: 40px;
-  color:whitesmoke
+  color:whitesmoke;
+  display: flex;
+  margin-left: 8%;
 
  
 }
@@ -137,7 +148,7 @@ footer{
 .news-form{
   
   /*flex grow toma el espacio de la derecha*/
-  flex-grow:1;
+  margin-left: 2%;
   text-align: right;
   
   }
@@ -158,5 +169,6 @@ footer{
   color: whitesmoke
  }
  h3 {
-   margin-top: 2%;
+   margin-top: 1%;
+   margin-bottom: 1%;
  }
