@@ -2,6 +2,7 @@
 * {
   padding: 0;
   margin: 0;
+  
   }
 
 /*Agregamos margenes inferiores a los parrafos*/
@@ -14,8 +15,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 100;
-  
-  margin-top: 4px;
+   margin-top: 0px;
 }
 /*De aquí en delante los demás es conocido, lo único que tenemos que hacer es darle forma a nuestro menú y a los items de la navegación, a continuación el código, que en realidad es muy sencillo, asi que me delimitare a no explicarlo todo, simplemente las partes que puedan parecer confusas. Como utilizamos ya un color negro de fondo yo puse el hover de los items color verde.*/
 
@@ -43,6 +43,7 @@ nav ul li a {
 
 nav ul li:hover {
   background: #6795fc;
+  ;
   
 }
 h1 {
@@ -63,14 +64,99 @@ h1 {
   margin-right: 22px;
   
 }
+
+
 body{
   background-image: url('Imagenes/back..jpg');
+    
+}
+
+.contenedores {
+    padding-top: 80px;
+ 
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  gap: 20px;
+  justify-content: space-between;
+ }
+
+.div-recuadro{
+  background-color: whitesmoke;
+  width: 340px;
+  box-shadow: 0px 0px 4px 4px grey;
   
+  
+  }
+.contenedor{
+  background-color: whitesmoke;
+  margin-top: -2%;
+  justify-content: center;
+
+}
+img{
+  width: 100%;
+  height: auto;
+  object-position: center;
+  }
+main {
+  margin-left: 100px;
+  margin-right: 115px;
+}
+
+
+/*Footer*/
+footer{
   
 }
-.contenido {
-  padding-top: 75px;
-  margin: 0%;
-  padding-left: 10px;
+.news{
+  margin-bottom: 250PX;
+  /*Degradados en codigo*/
+  background-color: #13121c;
+  border-radius: 5%;
+  
+  margin-left: 30px;
+  margin-right: 30px;
+    display: flex;
+  align-items: center;
+  margin-top: 15px;
+  border-radius: 8px 8px 8px 8px;
+}
+.news-info {
+  
+  padding-left: 40px;
+  color:whitesmoke
+
+ 
+}
+.news-info,
+.news-info p{
+  padding-left: 40px;
+ 
+}
+
+.news-form{
+  
+  /*flex grow toma el espacio de la derecha*/
+  flex-grow:1;
+  text-align: right;
+  
+  }
+.news-imagen {
+  
   padding-right: 10px;
+  margin-right: 40px;
+  
 }
+.news-form_boton {
+  /*sdacamos forma y bordes predeterminados*/
+  background: none;
+  border:none;
+  font-weight: bold;
+  /*para modificar cursores*/
+  cursor:pointer;
+  padding: 4px 10px;
+  color: whitesmoke
+ }
+ h3 {
+   margin-top: 2%;
+ }
