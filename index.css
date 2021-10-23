@@ -127,9 +127,7 @@ footer {
 
 .news {
     margin-bottom: 250PX;
-
     background-color: #13121c;
-
     margin-left: 30px;
     margin-right: 30px;
     display: flex;
@@ -144,23 +142,17 @@ footer {
     color: whitesmoke;
     display: flex;
     margin-left: 8%;
-
-
 }
 
 .news-info,
 .news-info p {
     padding-left: 40px;
-
 }
-
 .news-form {
-
     /*flex grow toma el espacio de la derecha*/
     margin-left: 2%;
     text-align: right;
 }
-
 .news-imagen {
     padding-right: 10px;
     margin-right: 40px;
@@ -202,5 +194,5 @@ h3 {
     box-shadow: 0 0 4px 4px #13121c;
     border-radius: 8px 8px 8px 8px;
     padding: 3%;
-
 }
+
