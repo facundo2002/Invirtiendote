@@ -96,12 +96,13 @@ img{
   object-position: center;
   }
 main {
-  padding-top: 90px;
+  padding-top: 80px;
   margin-left: 100px;
   margin-right: 115px;
 }
-#imgproplematica {
-  height: 200px;
+#imgproplematica{
+  /*nada funciono del todo bien, la recomendación es
+  ajustar la iamgen con un editor*/
 
 }
 main .contenedor h2{
@@ -178,7 +179,7 @@ footer{
 .formulario{
   
   
-  padding-top: 95px;
+  padding-top: 80px;
   margin-left: 100px;
   margin-right: 115px;
 }
@@ -196,8 +197,6 @@ footer{
   box-shadow: 0px 0px 4px 4px #13121c;
   border-radius: 8px 8px 8px 8px;
   padding: 3%;
-}
-input{
   
 }
 label{
