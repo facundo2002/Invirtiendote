@@ -68,13 +68,10 @@ h1 {
 
 body{
   background-image: url('Imagenes/back..jpg');
-    
 }
 
 .contenedores {
-    padding-top: 90px;
- 
-  display: grid;
+    display: grid;
   grid-template-columns: repeat(3, 300px);
   gap: 25px;
   justify-content: space-between;
@@ -99,10 +96,15 @@ img{
   object-position: center;
   }
 main {
+  padding-top: 90px;
   margin-left: 100px;
   margin-right: 115px;
 }
-h2{
+#imgproplematica {
+  height: 200px;
+
+}
+main .contenedor h2{
   text-align: center;
 }
 .texto-recuadro {
@@ -172,3 +174,32 @@ footer{
    margin-top: 1%;
    margin-bottom: 1%;
  }
+
+.formulario{
+  
+  
+  padding-top: 95px;
+  margin-left: 100px;
+  margin-right: 115px;
+}
+.formulario h2{
+  color: #13121c  ;
+  ;
+}
+.formulario h3{
+  color:r #13121c
+}
+.form-recuadro{
+  background-color: whitesmoke;
+  padding-top: 0%;
+  display: grid;
+  box-shadow: 0px 0px 4px 4px #13121c;
+  border-radius: 8px 8px 8px 8px;
+  padding: 3%;
+}
+input{
+  
+}
+label{
+  
+}

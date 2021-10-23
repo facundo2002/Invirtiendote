@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>        
+        <img href="index.html" Class="logo" src="imagenes/Logo2.jpg" alt="logo">
+        <h1>Invirtiendote</h1>
+        <nav>            
+            <ul>
+                <li><a href="#">Bolsas</a></li>
+                <li><a href="#">Cryptos</a></li>
+                <li><a href="#">Otras Inversiones</a></li>
+                <li><a href="#">Que inversor sos?</a></li>
+                <li><a href="#">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="enviar.js">
+<div class="formulario">
+    <div class=form-recuadro>
+    <h2>Quien soy invirtiendo y donde podría invertir?</h2>
+    <h3>Realiza este test y animate a no perder con la inflación</h3>
+    <label>
+		Nombre: 
+		<!-- Numero entero validacion + teclado numerico en celulares -->
+		<input type="text" required> 	
+		</label><br>
+        <label>
+        Edad: 
+		<!-- Numero entero validacion + teclado numerico en celulares -->
+		<input type="number" min="18" max="55">	
+		</label>
+            <br>
+        <label>
+            Que inversiones conoces: 
+            <br>
+            <label><input type="radio" name="Cryptos">Cryptos
+            </label><br>
+                <label><input type="radio" name="Acciones/Bonos">Acciones/Bonos
+            </label><br>
+                <label><input type="radio" name="Otras">Otras
+            </label><br>
+            <br>
+            Cuanto de tu capital estas dispuesto a invertir: 
+            <br>
+            <br>
+            <label><input type="radio" name="cantidad"> El 50%
+            </label><br>
+                <label><input type="radio" name="cantidad">El 25%
+            </label><br>
+                <label><input type="radio" name="cantidad">Todo
+            </label><br>
+            <br>
+		Email, recibiras un correo con tu perfil de inversor: 
+		<!-- Numero entero validacion + teclado numerico en celulares -->
+		<input type="email">	
+		</label>
+		<label>
+            <br>
+		
+
+            <input type="checkbox" required>
+            Quiero recibir notificaciones via mail  
+            </label>	<br>
+            <label>
+            <input type="submit" Value="Enviar!!"> 
+        </label>
+    
+    </div>
+    </div>        
+    </form>
+    <footer>
+        <div class="news">
+          
+            <div class="news-info">
+                <h3>Suscribite al newsleter para recibir todas las novedades a tu mail:</h3>
+                
+            </div>
+            <form action="susc.js" class="news-form">
+                 <input type="email">
+                 <input type="submit" value="Suscribirse" class="news-form_boton">
+            </form>
+    </div><!-- Cierra .contenedor -->
+    </footer>
+</body>
+</html>
