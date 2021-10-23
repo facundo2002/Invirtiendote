@@ -100,13 +100,6 @@ main {
     margin-left: 100px;
     margin-right: 115px;
 }
-
-#imgproplematica {
-    /*nada funciono del todo bien, la recomendación es
-    ajustar la iamgen con un editor*/
-
-}
-
 main .contenedor h2 {
     text-align: center;
 }
@@ -121,10 +114,6 @@ main .contenedor h2 {
 }
 
 /*Footer*/
-footer {
-
-}
-
 .news {
     margin-bottom: 250PX;
     background-color: #13121c;
